@@ -51,26 +51,26 @@ function cases(btnID) {
   switch (btnID) {
     case "#green":
       animate(btnID);
-      audio = new Audio("/sounds/green.mp3");
+      audio = new Audio("/simon/sounds/green.mp3");
       audio.play();
       break;
     case "#red":
       animate(btnID);
-      audio = new Audio("/sounds/red.mp3");
+      audio = new Audio("/simon/sounds/red.mp3");
       audio.play();
       break;
     case "#yellow":
       animate(btnID);
-      audio = new Audio("/sounds/yellow.mp3");
+      audio = new Audio("/simon/sounds/yellow.mp3");
       audio.play();
       break;
     case "#blue":
       animate(btnID);
-      audio = new Audio("/sounds/blue.mp3");
+      audio = new Audio("/simon/sounds/blue.mp3");
       audio.play();
       break;
     case "game-over":
-      audio = new Audio("/sounds/wrong.mp3");
+      audio = new Audio("/simon/sounds/wrong.mp3");
       audio.play();
       break;
     default:
